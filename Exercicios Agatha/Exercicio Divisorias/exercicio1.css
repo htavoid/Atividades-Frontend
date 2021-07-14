@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    align-items: center;
+    background-color: #EAEAEA;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+
+.item_1{
+    background-color: #ff0000;
+    width: 100%;
+    border: 30px solid yellow;
+    text-align: center;
+}
+
+.item_2{
+    background-color: green;
+    width: 100%;
+    border: 30px solid orangered;
+    text-align: center;
+}
+.item {
+   color: #FFFF; 
+   font-size: 80px;
+}

@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+    background-color: #f2f1f1;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 16px;
+}
+
+.avatar {
+    width: 180px;
+    height: 180px;
+    border-radius: 200px;
+}
+
+.container-sobre {
+    display: flex;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 32px;
+}
+
+.nome {
+    color: #483D8B;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.container-descricao {
+    margin-top: 10px;
+}
+
+.descricao {
+    line-height: 28px;
+    color: #3a3939;
+    font-weight: 500;
+} 
